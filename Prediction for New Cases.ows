@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Load Model" qualified_name="Orange.widgets.model.owloadmodel.OWLoadModel" project_name="Orange3" version="" title="Load Model" position="(184.0, 259.0)" />
+		<node id="1" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(178.0, 78.0)" />
+		<node id="2" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions" position="(413.0, 153.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="2" source_channel="Model" sink_channel="Predictors" enabled="true" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVPQIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIwmSTovTmV3IGZvbGRlci9vcmFuZ2UvU2F2ZWQgTW9kZWwucGtjbHOUjAZwcmVmaXiUjAdi
+YXNlZGlylIwHcmVscGF0aJSMEVNhdmVkIE1vZGVsLnBrY2xzlIwFdGl0bGWUjACUjAVzaGVldJRo
+EIwLZmlsZV9mb3JtYXSUTnViaAYpgZR9lChoCYwxSTovTmV3IGZvbGRlci9vcmFuZ2Uvc2F2ZWQg
+aGVhcnQgZGF0YSBtb2RlbC5wa2Nsc5RoC2gMaA2MHHNhdmVkIGhlYXJ0IGRhdGEgbW9kZWwucGtj
+bHOUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMGkQ6L0FiZWVyL0ZpbmFsIG1vZGVsLnBrY2xzlGgL
+TmgNTmgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjBpEOi9BYmVlci9maW5hbCBtb2RlbC5wa2Nsc5Ro
+C05oDU5oD2gQaBFoEGgSTnViZYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAABuAAA
+ASQAAAOdAAABlQAAAbkAAAFDAAADnAAAAZQAAAAAAAAAAAVWAAABuQAAAUMAAAOcAAABlJSMC19f
+dmVyc2lvbl9flEsBdS4=
+</properties>
+		<properties node_id="1" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/instructorn61/Desktop/Heart Disease Classification Dataset/New Case.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 2, 'value': 'Numeric'}, {'start': 2, 'stop': 4, 'value': 'Categorical'}, {'start': 4, 'stop': 6, 'value': 'Numeric'}, {'start': 6, 'stop': 8, 'value': 'Categorical'}, {'start': 8, 'stop': 9, 'value': 'Numeric'}, {'start': 9, 'stop': 10, 'value': 'Categorical'}, {'start': 10, 'stop': 11, 'value': 'Numeric'}, {'start': 11, 'stop': 14, 'value': 'Categorical'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/instructorn61/Desktop/Heart Disease Classification Dataset', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x027\x00\x00\x00\xd6\x00\x00\x03N\x00\x00\x02*\x00\x00\x028\x00\x00\x00\xf5\x00\x00\x03M\x00\x00\x02)\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x028\x00\x00\x00\xf5\x00\x00\x03M\x00\x00\x02)', '__version__': 3}</properties>
+		<properties node_id="2" format="pickle">gASVFwEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAABAAAAEAAABVYAAALnAAAAAgAAAC8AAAVVAAAC5gAAAAAAAAAABVYAAAAC
+AAAALwAABVUAAALmlIwJc2VsZWN0aW9ulF2USwBhjAtzY29yZV90YWJsZZR9lIwMc2hvd25fc2Nv
+cmVzlI+UKIwCRjGUjARSTVNFlIwCUjKUjAlQcmVjaXNpb26UjANNQUWUjANNU0WUjAJDQZSMA0FV
+Q5SMB0MtSW5kZXiUjAZSZWNhbGyUkHOMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdz
+lF2UdS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
